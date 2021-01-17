@@ -132,7 +132,7 @@ public class VarastoTest {
     
     @Test
     public void toStringPalauttaaOikeanMerkkijonoesityksen() {
-        varasto.lisaaVarastoon(1);
+        varasto.lisaaVarastoon(123);
         assertEquals("saldo = 1.0, vielä tilaa 9.0", varasto.toString());
         
     }
